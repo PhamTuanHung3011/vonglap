@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let sout;
+
+    sout = '<table border="1" width="400" cellspacing="2" cellpadding="10">';
+    for( i=1; i<11; i++){
+        sout = sout + '<tr>';
+        for(j=1; j<11; j++){
+            sout += '<td>' + i + "x"+ j + "=" + i*j +'</td>';
+        }
+        sout = sout + '</tr>';
+    }
+    sout = sout + '</table>';
+    document.write(sout);
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
