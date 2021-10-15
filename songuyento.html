@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let num = parseInt(prompt('nhap so'));
+    let count = 0;
+    let N=2;
+    for (count=0; count < num; ){
+        let check = true;
+        for (let i=2;i < N; i++){
+            if (N % i === 0){
+                check = false
+                break;
+            }
+        }
+        if (check === true) {
+            document.write(N + "; ")
+            count++
+        }
+        N++
+    }
+
+
+
+
+
+
+    //     while (count<20){
+    //         a=2
+    //         for(N;N<a;N++){
+    //             if(n%2==0){
+    //                 break;
+    //             } else
+    //                 count++
+    //             document.write(num);
+    //         }
+    //     } a++
+    // }
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
